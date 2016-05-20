@@ -1,33 +1,30 @@
 # Orbital
-Second game
+Orbital will be a relatively simple mobile game based around a concept that I find to be a lot of
 
-Files:
+fun in games, as rarely as it’s seen. That mechanic is small amounts of gravity with respect to
 
-All scripts controlling the game are in the scripts folder inside the assets folder.
+orbital mechanics. While that sounds boring, I find that a lot of the more fun parts of games like
 
-Scripts:
+Super Mario Galaxy or Psychonauts are due to the way different gravitational fields affect the
 
-CameraController: Controlls the camera's movement
+player, and moving around in that environment. In this game, you will control a ship which must
 
-Planetary: Controlls how planetar bodies behave
+navigate through a series of gravity wells in order to make it to the end of the level. It will be a
 
-ShipController: Governs how the ship behaves
+single player only game with increasingly challenging levels.
 
-The Images used in game are stored under images in assets.
+##GENERAL INFORMATION
 
-The prefabs used in game are stored under prefabs in assets.
+In this game, you will control a ship which must navigate through a series of gravity wells in
 
-Prefabs:
+order to make it to the end of the level. It will be a single player only game with increasingly
 
-ship: The player's ship
+challenging levels, where much of the game will have to come from the level design.
 
-Boost: The boost images on the screen
+You will start each level by aiming the ship in a direction and giving it some amount of starting
 
-CameraBackground: The camera and background image (tied together to keep the background in view).
+power. During flight you will have a certain number of “boosters” depending on the level that
 
-The different scenes for the project are stored under scenes in assets. The Scenes are the levels labeled as such.
+will increase the player’s forward velocity when used (though only in the direction they are
 
-
-The script planetary affects every GameObject it is set to affect with its gravity. 
-
-The script ShipController reads in the user input and enacts the commands.
+currently moving to avoid unnecessary complications with an aiming system during flight.)
