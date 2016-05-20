@@ -6,7 +6,7 @@ Super Mario Galaxy or Kerbal Space Program are due to the way different gravitat
 player, and moving around in that environment. In this game, you will control a ship which must
 navigate through a series of gravity wells in order to make it to the end of the level.
 
-##GENERAL INFORMATION
+##General Information
 
 In this game, you will control a ship which must navigate through a series of gravity wells in
 order to make it to the end of the level. It is a game with increasingly
@@ -17,4 +17,7 @@ power. During flight you have a certain number of “boosters” depending on th
 will increase the player’s forward velocity when used (though only in the direction they are
 currently moving to avoid unnecessary complications with an aiming system during flight.)
 
+##Implementation Details
 
+In order to simplify things like graphics and collision detection, Orbital was made using the Unity game engine. The ship object is given a script in order to handle player input and move itself accordingly. 
+The planetary Bodies are also given scripts to dictate how their gravitational fields are applied to the other objects in the game, as well as the general intensity of their gravitational impact.
